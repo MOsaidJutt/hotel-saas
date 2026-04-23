@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node generate_pdf.js)",
+      "Bash(node -e ':*)",
+      "Bash(mongod --version)",
+      "Bash(mongosh --version)",
+      "Bash(sc query:*)",
+      "Bash(mongosh --eval \"db.runCommand\\({ connectionStatus: 1 }\\)\" --quiet)",
+      "Bash(\"/c/Program Files/MongoDB/Server/8.0/bin/mongod.exe\" --version)",
+      "Bash(node server.js)",
+      "Bash(curl -s http://localhost:3000/api/auth/me)",
+      "Bash(curl -s -X POST http://localhost:3000/api/auth/login -H \"Content-Type: application/json\" -d '{\"email\":\"superadmin@onesol.com\",\"password\":\"Admin@123\"}')",
+      "Bash(node -e \"const d=require\\('fs'\\).readFileSync\\('/dev/stdin','utf8'\\);const j=JSON.parse\\(d\\);console.log\\('TOKEN:',j.token\\)\")",
+      "Bash(curl -s -X POST http://localhost:3000/api/auth/login -H 'Content-Type: application/json' -d '{\\\\\"email\\\\\":\\\\\"superadmin@onesol.com\\\\\",\\\\\"password\\\\\":\\\\\"Admin@123\\\\\"}')",
+      "Bash(curl -s http://localhost:3000/api/superadmin/tenants -H \"Authorization: Bearer $\\(curl -s -X POST http://localhost:3000/api/auth/login -H 'Content-Type: application/json' -d '{\\\\\"email\\\\\":\\\\\"superadmin@onesol.com\\\\\",\\\\\"password\\\\\":\\\\\"Admin@123\\\\\"}')",
+      "Bash(pkill -f \"node server.js\")",
+      "Bash(curl -s -X POST http://localhost:3000/api/auth/login -H \"Content-Type: application/json\" -d '{\"email\":\"osaid@gmail.com\",\"password\":\"osaid123\"}')",
+      "Read(//c/Program Files/MongoDB/Server/**)"
+    ]
+  }
+}

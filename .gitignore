@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+dashboard/node_modules/
+
+# Environment — never commit this
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build output is committed so Railway can serve it
+# (do NOT add public/ here)
+config.bat

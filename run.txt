@@ -1,0 +1,30 @@
+node server.js
+
+
+
+Open PowerShell as Administrator and run:
+net start MongoDB
+
+To stop it:
+net stop MongoDB
+
+
+
+
+************************
+
+How future sessions will work
+When Claude opens cartcloser-ai/:
+→ CLAUDE.md auto-loads → full code context without any exploration
+
+When Claude opens 01 - Nicholas Gaulton/:
+→ CLAUDE.md auto-loads → orientation + pending items instantly
+
+If more detail needed:
+→ "read PROJECT_MEMORY.md" → one read, everything covered
+***********************
+
+
+
+superadmin@onesol.com
+Admin@123
